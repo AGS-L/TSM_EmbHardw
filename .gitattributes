@@ -1,0 +1,8 @@
+# Always keep .sh files LF
+*.sh text eol=lf
+
+# Always keep .bat files CRLF
+*.bat text eol=crlf
+
+# Auto detect text files and perform LF normalization
+* text=auto

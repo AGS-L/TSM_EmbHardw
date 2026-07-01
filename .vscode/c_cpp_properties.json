@@ -1,0 +1,31 @@
+{
+    "configurations": [
+        {
+            "name": "Camera Program - Windows",
+            "includePath": [
+                "${workspaceFolder}/soc/camera-program/support/include/**",
+                "C:/msys64/opt/or1k_toolchain/lib/gcc/or1k-elf/15.2.0/include/**"
+            ],
+            "defines": [
+                "PRINTF_INCLUDE_CONFIG_H"
+            ],
+            "compilerPath": "C:/msys64/opt/or1k_toolchain/bin/or1k-elf-gcc.exe",
+            "cStandard": "gnu23",
+            "intelliSenseMode": "gcc-x64"
+        },
+        {
+            "name": "Camera Program - Unix",
+            "includePath": [
+                "${workspaceFolder}/soc/camera-program/support/include/**",
+                "/opt/or1k_toolchain/lib/gcc/or1k-elf/15.2.0/include/**"
+            ],
+            "defines": [
+                "PRINTF_INCLUDE_CONFIG_H"
+            ],
+            "compilerPath": "/opt/or1k_toolchain/bin/or1k-elf-gcc",
+            "cStandard": "gnu23",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}

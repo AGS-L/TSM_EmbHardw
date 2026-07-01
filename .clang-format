@@ -1,0 +1,18 @@
+# .clang-format
+BasedOnStyle: LLVM
+AlignConsecutiveMacros: true
+AlignEscapedNewlines: DontAlign
+AllowShortBlocksOnASingleLine: Empty
+AllowShortCaseLabelsOnASingleLine: false
+AllowShortEnumsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: Empty
+BreakBeforeBraces: Attach
+ColumnLimit: 150
+IndentCaseLabels: true
+IndentPPDirectives: BeforeHash
+IndentWidth: 4
+# InsertBraces: true
+KeepEmptyLinesAtTheStartOfBlocks: true
+NamespaceIndentation: All
+PointerAlignment: Left
+SpaceBeforeParens: ControlStatements

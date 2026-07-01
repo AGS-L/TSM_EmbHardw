@@ -1,0 +1,9 @@
+{
+    "makefile.configureOnOpen": false,
+    "makefile.makefilePath": "./soc/camera-program/",
+    "mbake.configPath": "./.bake.toml",
+    "mbake.formatOnSave": false,
+    "files.associations": {
+        "*.h": "c"
+    }
+}
